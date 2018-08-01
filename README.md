@@ -14,7 +14,9 @@ Exercises:
     + Two And Gates --> One OR Gate --> Not Gate
     + Four And Gates --> Two OR Gate ---> Two Note Gate --> One OR Gate
 
-2) Create a user database Class with the following columns: login, password, and last login timestamp. (see Example 7.1 in Core Python). Dictionary Example in Core Python) It manages a system requiring users to log in before access to resources is allowed. This database class has two methods, 
+2) Create a user database Class with the following columns: login, password, and last login timestamp. (see Example 7.1 in Core Python). Dictionary Example in Core Python) It manages a system requiring users to log in before access to resources is allowed. This database class has three methods, 
 
-- Update (loading any previously saved user information on instantiation and providing accessor functions to add or update database information). 
-- Delete user( This database also supports entries to be deleted)
+- Add new user
+- Update Existing user 
+- Delete user
+
